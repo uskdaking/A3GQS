@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NAF Inteligente - Testes Funcionais" verbose="1">
+    <test name="Agendamento (CT01 a CT09)">
+        <classes>
+            <class name="AgendamentoTest"/>
+        </classes>
+    </test>
+    <test name="Meu agendamento (CT10 a CT13)">
+        <classes>
+            <class name="MeuAgendamentoTest"/>
+        </classes>
+    </test>
+    <test name="Navegacao e area da equipe (CT14 a CT17)">
+        <classes>
+            <class name="NavegacaoTest"/>
+        </classes>
+    </test>
+</suite>
